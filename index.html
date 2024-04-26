@@ -67,7 +67,7 @@ function gameStart() {
   nextTick();
 }
 function nextTick() {
- /* if (running) {
+  if (running) {
     setTimeout(()=>{
       clearBoard();
       drawFood();
@@ -80,7 +80,7 @@ function nextTick() {
   else {
     dislpayGameOver();
   }
-};*/
+};
 function clearBoard() {
   ctx.fillStyle=boardBackground;
   ctx.fillRect(0,0,gameWidth,gameHeight);
